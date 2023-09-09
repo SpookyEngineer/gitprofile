@@ -4,7 +4,7 @@ const config = {
   github: {
     username: 'spookyengineer', // Your GitHub org/user name. (Required)
     sortBy: 'stars', // stars | updated
-    limit: 10, // How many projects to display.
+    limit: 100, // How many projects to display.
     exclude: {
       forks: false, // Forked projects will not be displayed if set to true.
       projects: ['SpookyEngineer'], // These projects will not be displayed. example: ['my-project1', 'my-project2']
@@ -87,7 +87,7 @@ const config = {
 
   // To hide the `My Projects` section, keep it empty.
   externalProjects: [
-    {
+    /* {
       title: 'Project Name',
       description:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
@@ -100,7 +100,7 @@ const config = {
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
       imageUrl: 'https://via.placeholder.com/250x250',
       link: 'https://example.com',
-    },
+    }, */
   ],
   // Display blog posts from your medium or dev account. (Optional)
   blog: {
